@@ -1,15 +1,20 @@
 
+            
 function reset(){
 
     document.getElementById("two").style.display="block";
     document.getElementById("three").style.display="none";
     document.getElementById("four").style.display="none";
+    document.getElementById("profile1").src="https://dotrex.co/theme-preview/cards/img/profile.jpg";
     
     }
         function myfun1(){
     
             document.getElementById("three").style.display="block";
             document.getElementById("four").style.display="none";
+            // document.getElementById("profile1").style.display="none";
+            document.getElementById("profile1").src="https://dotrex.co/theme-preview/cards/img/profile2.jpg";
+    
     
         }
         function myfun3(){
