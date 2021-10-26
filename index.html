@@ -1,85 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
 </head>
 
-
 <body>
-    <div id="one" class="main-menu-list">
+  <div id="one" class="main-menu-list">
 
-        <!-- <div class="main-menu" id="main-menu">
-			<ul class="main-menu-list" id="myDiv">
-				<li><a href="#page-resume" onclick="reset()" class="link-home btn ">Home</a></li>
-				<li><a href="#page-resume" onclick="myfun1()" class="link-page btn active">Resume</a></li>
-				<li><a href="#page-skills" onclick="myfun3()" class="link-page btn">Skills</a></li>
-				
-			</ul>
-		</div> -->
-        <button onclick="reset()" class=" link-home btn active" style="text-transform: uppercase;line-height: 30px;margin-bottom: 3px; color: white;text-align: left;"> Home</button><br>
-        <button onclick="myfun1()" class=" link-page btn " style="text-transform: uppercase;line-height: 30px;margin-bottom: 3px; color: white;text-align: left;"> Resume</button><br>
-        <button onclick="myfun3()" class=" link-page btn" style="text-transform: uppercase;line-height: 30px;margin-bottom: 3px; color: white;text-align: left;"> Skill </button>
+    <button onclick="reset()" class=" link-home btn active" style="text-transform: uppercase;line-height: 25px;margin-bottom: 5px; color: white;text-align: left;"> Home</button><br>
+    <button onclick="myfun1()" class=" link-page btn " style="text-transform: uppercase;line-height: 25px;margin-bottom: 5px; color: white;text-align: left;"> Resume</button><br>
+    <button onclick="myfun3()" class=" link-page btn" style="text-transform: uppercase;line-height: 25px;margin-bottom: 5px; color: white;text-align: left;"> Skill </button>
+    <button onclick="myfun4()" class=" link-page btn" style="text-transform: uppercase;line-height: 25px;margin-bottom: 5px; color: white;text-align: left;"> Blog </button>
 
+  </div>
+  <div id="two">
 
+    <div class="section-vcardbody section-home" id="section-home">
+      <!-- Profile pic-->
+      <div class="vcard-profile-pic">
+        <img src="" id="profile2" alt="" />
 
+        <!-- class="profileActive" -->
+        <img src="https://dotrex.co/theme-preview/cards/img/profile.jpg" class="profileActive" id="profile1" alt="" />
+      </div>
+      <!-- /Profile pic -->
+      <!-- Description -->
+      <div class="vcard-profile-description">
+        <!-- Profile title -->
+        <h1 class="profile-title">Hi, i'm <span class="color1" style="color: #08AEAC;">John Rex!</span></h1>
+        <h2 class="profile-subtitle">Web Designer & Developer</h2>
+
+        <hr style="width: 80%;text-align: center;">
+        <!-- /Profile Title -->
+        <!-- Description Text -->
+        <!-- <hr class="hr1"> -->
+        <div class="vcard-profile-description-text">
+          <p style="font-size: 14px;color:gray;font-family: Arial, Helvetica, sans-serif;">Founder of DotRex. Professional UI/UX designer and web developer based on London. Sometimes works as a freelancer.</p>
+        </div>
+        <!--/ Description Text -->
+        <!-- Description feature -->
+        <div class="vcard-profile-description-feature">
+          <!-- item -->
+          <div class="vcard-profile-description-ft-item" style="align-content: center; width:80%;margin-left:40px;text-align: center;">
+            <p style="margin-top: 0px;">email: john@dotrex.co / phone +123 456 789 111</p>
+          </div>
+          <!-- item -->
+        </div>
+        <!-- /Description feature -->
+      </div>
+      <!-- /Description -->
+      <!-- Footer -->
+      <div class="vcard-footer">
+        <!-- Social Icons -->
+        <div class="footer-social-icons" style="text-align: center;">
+          <a href="#"><i class="fa fa-instagram" style=" color: white;padding:7px;background-color: black;"></i></a>
+          <a href="#"><i class="fa fa-facebook " style=" color: white;padding-bottom: 7px;padding-top: 7px;padding-left:10px;padding-right:10px;background-color: black;"></i></a>
+          <a href="#"><i class="fa fa-twitter" style=" color: white;padding:7px;background-color: black;"> </i></a>
+          <a href="#"><i class="fa fa-linkedin" style=" color: white;padding:7px;background-color: black;"></i></a>
+          <a href="#"><i class="fa fa-youtube" style=" color: white;padding:7px;background-color: black;"></i></a>
+        </div>
+        <!-- /Social Icons -->
+      </div>
     </div>
-    <div id="two">
-
-
-        <div class="section-vcardbody section-home" id="section-home">
-			<!-- Profile pic-->
-			<div class="vcard-profile-pic">
-				<img src="" id="profile2"  alt=""/>
-
-                <!-- class="profileActive" -->
-				<img src="https://dotrex.co/theme-preview/cards/img/profile.jpg" class="profileActive" id="profile1"  alt=""/>
-			</div>
-			<!-- /Profile pic -->
-			<!-- Description -->
-			<div class="vcard-profile-description">
-				<!-- Profile title -->
-				<h1 class="profile-title">Hi, i'm <span class="color1" style="color: #08AEAC;">John Rex!</span></h1>
-				<h2 class="profile-subtitle">Web Designer & Developer</h2>
-
-                <hr style="width: 80%;text-align: center;">
-				<!-- /Profile Title -->
-				<!-- Description Text -->
-				<!-- <hr class="hr1"> -->
-				<div class="vcard-profile-description-text" >
-					<p style="font-size: 14px;color:gray;font-family: Arial, Helvetica, sans-serif;">Founder of DotRex. Professional UI/UX designer and web developer based on London. Sometimes works as a freelancer.</p>
-				</div>	
-				<!--/ Description Text -->	
-				<!-- Description feature -->
-				<div class="vcard-profile-description-feature">
-					<!-- item -->
-					<div class="vcard-profile-description-ft-item" style="align-content: center; width:80%;margin-left:40px;text-align: center;">
-						<p style="margin-top: 0px;">email:  john@dotrex.co / phone +123 456 789 111</p>
-					</div>
-					<!-- item -->
-				</div>	
-				<!-- /Description feature -->		
-			</div>
-			<!-- /Description -->	
-			<!-- Footer -->		
-			<div class="vcard-footer" style=" ">
-				<!-- Social Icons -->
-				<div class="footer-social-icons" style="text-align: center;" >
-					<a href="#"><i class="fa fa-instagram" style=" color: white;padding:7px;background-color: black;"></i></a>
-					<a href="#"><i class="fa fa-facebook " style=" color: white;padding:7px;background-color: black;"></i></a>
-					<a href="#"><i class="fa fa-twitter" style=" color: white;padding:7px;background-color: black;"> </i></a>
-					<a href="#"><i class="fa fa-linkedin" style=" color: white;padding:7px;background-color: black;"></i></a>
-					<a href="#"><i class="fa fa-youtube" style=" color: white;padding:7px;background-color: black;"></i></a>
-				</div>
-				<!-- /Social Icons -->
-			</div>
-		</div>
-        <!-- <div class="card" style="margin-top:40px;margin-bottom: 40px;">
+    <!-- <div class="card" style="margin-top:40px;margin-bottom: 40px;">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS78NndbZiK_0eG0HQCpI3zqFvdKfpkJCKSb3dcdpdSofQuOwtucAgSIH9LujQgU-xY7U&usqp=CAU" alt="John" style="width:100%">
             <h1>John Doe</h1>
             <p class="title">CEO & Founder, Example</p>
@@ -94,321 +86,381 @@
           </div>
                      -->
 
+  </div>
+  <div id="three">
+
+    <div class="section-vcardbody section-page" id="page-resume" style="padding: 40px;">
+
+      <!-- SECTION: Education -->
+      <div class="section-education">
+        <!-- Section title -->
+        <h2 class="section-title" style="text-transform: uppercase;margin-top: 10px;">Resume</h2>
+
+        <hr style="border-top: 1px solid black;">
+        <br><br>
+        <!-- /Section title -->
+
+        <!-- Buttons -->
+        <div class="resume-buttons header-page-buttons">
+          <!-- Download CV button -->
+          <a href="#" class="btn btn-default btn-default2" style="text-decoration: none;text-transform: uppercase;font-size: 12px;color: white;"><i class="fa fa-download"></i>&nbsp; Download my resume</a>
+          <!-- /Download CV button -->
+          <!-- Get in Touch button -->
+          <a href="#page-contact" class="btn btn-default btn-default2 link-page" style="text-decoration: none;text-transform: uppercase;font-size: 12px;color: white;"><i class="fa fa-download"></i>&nbsp; Get in Touch</a>
+          <!-- /Get in Touch button -->
+        </div>
+        <!-- /Buttons -->
+
+        <h2 class="section-title2"><i class="fa fa-university"></i>&nbsp; Education</h2>
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Graduation title -->
+          <h3 class="section-item-title-1">Graphic Design</h3>
+          <!-- /Graduation title -->
+          <!-- Graduation time -->
+          <h4 class="graduation-time">St. Patrick University (2 Years Course) - <span class="graduation-date">Graduation May 2013</span></h4>
+          <!-- /Graduation time -->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Graduation title -->
+          <h3 class="section-item-title-1">Master of Web Design</h3>
+          <!-- /Graduation title -->
+          <!-- Graduation time -->
+          <h4 class="graduation-time">St. Patrick University (2 Years Course) - Graduation May 2013</h4>
+          <!-- /Graduation time -->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+      </div>
+      <!--/ SECTION: Education -->
+
+      <!-- SECTION: WORK EXPERIENCE -->
+      <div class="section-education">
+
+        <h2 class="section-title2"><i class="fa fa-flag"></i>&nbsp; Work Experience</h2>
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Work Place -->
+          <h3 class="section-item-title-1">DotRex Co.</h3>
+          <!-- /Work Place -->
+          <!-- Job Time -->
+          <h4 class="job">Lead Designer - <span class="job-date">June 2012 - Current</span></h4>
+          <!-- /Job Time-->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Work Place -->
+          <h3 class="section-item-title-1">Oasis Ltda.</h3>
+          <!-- /Work Place -->
+          <!-- Job Time -->
+          <h4 class="job">Front-end Developer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
+          <!-- /Job Time-->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Work Place -->
+          <h3 class="section-item-title-1">Dupstudio</h3>
+          <!-- /Work Place -->
+          <!-- Job Time -->
+          <h4 class="job">Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
+          <!-- /Job Time-->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+
+        <!-- Resume Item -->
+        <div class="resume-item">
+          <!-- Work Place -->
+          <h3 class="section-item-title-1">Black Tie Corp.</h3>
+          <!-- /Work Place -->
+          <!-- Job Time -->
+          <h4 class="job">Web Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
+          <!-- /Job Time-->
+          <!-- content -->
+          <div class="graduation-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <!-- /Content -->
+        </div>
+        <!-- /Resume Item -->
+      </div>
+      <!--/ SECTION: WORK EXPERIENCE -->
+
+      <!-- <h2 class="section-title2"><i class="fa fa-commenting"></i>&nbsp; Testimonials</h2> -->
 
     </div>
-    <div id="three">
 
-        <div class="section-vcardbody section-page" id="page-resume" style="padding: 40px;">
+  </div>
 
-			<!-- SECTION: Education -->
-			<div class="section-education" >
-				<!-- Section title -->
-	            <h2 class="section-title" style="text-transform: uppercase;margin-top: 10px;" >Resume</h2>
-                
-                <hr style="border-top: 1px solid black;">
-                <br><br>
-	            <!-- /Section title -->
+  </div>
+  <div id="four">
+    <!--  -->
+    <div class="section-vcardbody section-page" id="page-skills">
+      <div class="section-skills">
 
-	            <!-- Buttons -->
-	            <div class="resume-buttons header-page-buttons">
-	            	<!-- Download CV button -->
-					<a href="#" class="btn btn-default btn-default2" style="text-decoration: none;text-transform: uppercase;font-size: 12px;color: white;"><i class="fa fa-download"></i>&nbsp; Download my resume</a>
-	            	<!-- /Download CV button -->
-	            	<!-- Get in Touch button -->
-					<a href="#page-contact" class="btn btn-default btn-default2 link-page" style="text-decoration: none;text-transform: uppercase;font-size: 12px;color: white;"><i class="fa fa-download"></i>&nbsp;  Get in Touch</a>
-	            	<!-- /Get in Touch button -->
-	            </div>
-	            <!-- /Buttons -->
+        <!-- Section title -->
+        <h2 class="section-title">&nbsp;&nbsp;SKILLS</h2>
+        <!-- /Section title -->
 
-				<h2 class="section-title2" ><i class="fa fa-university" ></i>&nbsp; Education</h2>
+        <!-- Subtitle -->
+        <h3 class="section-item-title-2"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
+        <!-- <hr style="border-top: 1px dashed black;"> -->
+        <!-- /Subtitle -->
 
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Graduation title -->
-                  	<h3 class="section-item-title-1">Graphic Design</h3>
-                  	<!-- /Graduation title -->
-                  	<!-- Graduation time -->
-                  	<h4 class="graduation-time">St. Patrick University (2 Years Course) - <span class="graduation-date">Graduation May 2013</span></h4>
-                  	<!-- /Graduation time -->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
+        <!-- Skils List -->
+        <ul class="skills-list">
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235); border-radius: 2px;">
+              <span class="progress-completed">40%</span>
+              <div class="progress-bar" id="d1" role="progressbar" data-percent="70%" style="width: 70%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Comunication</span>
+              </div>
 
-	             <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Graduation title -->
-                  	<h3 class="section-item-title-1">Master of Web Design</h3>
-                  	<!-- /Graduation title -->
-                  	<!-- Graduation time -->
-                  	<h4 class="graduation-time">St. Patrick University (2 Years Course) - Graduation May 2013</h4>
-                  	<!-- /Graduation time -->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-			</div>
-			<!--/ SECTION: Education -->
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
+              <span class="progress-completed">85%</span>
+              <div class="progress-bar progress-bar-2" id="d2" role="progressbar" data-percent="85%" style="width: 85%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Leadership</span>
+              </div>
 
-			<!-- SECTION: WORK EXPERIENCE -->
-			<div class="section-education">
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);" title="Doing my best!">
+              <span class="progress-completed">85%</span>
+              <div class="progress-bar progress-bar-3" id="d3" role="progressbar" data-percent="85%" style="width: 85%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Confidence</span>
+              </div>
 
-	            <h2 class="section-title2"><i class="fa fa-flag"></i>&nbsp; Work Experience</h2>
+            </div>
+          </li>
+          <!-- /item list -->
+        </ul>
+        <!-- /Skils List -->
 
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">DotRex Co.</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Lead Designer - <span class="job-date">June 2012 - Current</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
+        <!-- Subtitle -->
+        <h3 class="section-item-title-2"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
+        <!-- <hr style="border-top:1px dashed black;"> -->
+        <!-- /Subtitle -->
 
-	             <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Oasis Ltda.</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Front-end Developer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
+        <!-- Skils List -->
+        <ul class="skills-list">
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
+              <span class="progress-completed">85%</span>
+              <div class="progress-bar" id="d1" data-percent="85%" role="progressbar" style="width: 85%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Photoshop</span>
+              </div>
 
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Dupstudio</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235)">
+              <span class="progress-completed">85%</span>
+              <div class="progress-bar progress-bar-2" id="d2" data-percent="85%" role="progressbar" style="width: 85%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Illustrator</span>
+              </div>
 
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Black Tie Corp.</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Web Designer - <span class="job-date">Jan 2010 - Apr 2012</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-			</div>
-			<!--/ SECTION: WORK EXPERIENCE -->
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
 
-			<!-- <h2 class="section-title2"><i class="fa fa-commenting"></i>&nbsp; Testimonials</h2> -->
+              <span class="progress-completed" style="margin-left: 60px;">40%</span>
+              <div class="progress-bar progress-bar-3" id="d3" data-percent="40%" role="progressbar" style="width: 40%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Fireworks</span>
+              </div>
 
-			
-				
-						
-			 
-		</div>
+            </div>
+          </li>
+          <!-- /item list -->
+        </ul>
+        <!-- /Skils List -->
 
-        
-    </div>
-    
-    
-            
-      
-    </div>
-    <div id="four">
-        <!--  -->
-        <div class="section-vcardbody section-page" id="page-skills">
-            <div class="section-skills">
-    
-                <!-- Section title -->
-                <h2 class="section-title">&nbsp;&nbsp;SKILLS</h2>
-                <!-- /Section title -->
-    
-    
-                <!-- Subtitle -->
-                  <h3 class="section-item-title-2"><i class="fa fa-users"></i>&nbsp;&nbsp; Professional Skills</h3>
-                  <!-- <hr style="border-top: 1px dashed black;"> -->
-                  <!-- /Subtitle -->
-    
-                <!-- Skils List -->
-                <ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
-                        <span class="progress-completed">40%</span>
-                        <div class="progress-bar" id="d1" role="progressbar" data-percent="70%" style="width: 70%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Comunication</span>
-                        </div>
-                       
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
-                        <span class="progress-completed">85%</span>
-                        <div class="progress-bar progress-bar-2" id="d2" role="progressbar" data-percent="85%" style="width: 85%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Leadership</span>
-                        </div>
-                        
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);" title="Doing my best!">
-                        <span class="progress-completed">85%</span>
-                        <div class="progress-bar progress-bar-3" id="d3" role="progressbar" data-percent="85%" style="width: 85%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Confidence</span>
-                        </div>
-                        
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                </ul>
-                <!-- /Skils List -->
-    
-                 <!-- Subtitle -->
-                  <h3 class="section-item-title-2"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Software Skills</h3>
-                  <!-- <hr style="border-top:1px dashed black;"> -->
-                  <!-- /Subtitle -->
-    
-                <!-- Skils List -->
-                <ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
-                        <span class="progress-completed">85%</span>
-                        <div class="progress-bar" id="d1" data-percent="85%" role="progressbar" style="width: 85%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Photoshop</span>
-                        </div>
-                       
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235)">
-                        <span class="progress-completed">85%</span>
-                        <div class="progress-bar progress-bar-2"  id="d2" data-percent="85%" role="progressbar" style="width: 85%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Illustrator</span>
-                        </div>
-                      
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);" >
+        <!-- Subtitle -->
+        <h3 class="section-item-title-2"><i class="fa fa-code"></i>&nbsp;&nbsp; Code Skills</h3>
+        <!-- <hr style="border-top: 1px dashed black;"> -->
+        <!-- /Subtitle -->
 
-                        <span class="progress-completed" style="margin-left: 60px;">40%</span>
-                        <div class="progress-bar progress-bar-3" id="d3"  data-percent="40%" role="progressbar" style="width: 40%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;Adobe Fireworks</span> 
-                        </div>
-                        
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                  </ul>
-                <!-- /Skils List -->
-    
-                 <!-- Subtitle -->
-                  <h3 class="section-item-title-2"><i class="fa fa-code"></i>&nbsp;&nbsp; Code Skills</h3>
-                  <!-- <hr style="border-top: 1px dashed black;"> -->
-                  <!-- /Subtitle -->
-    
-                <!-- Skils List -->
-                <ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color:rgb(235,235,235);">
-                        <span class="progress-completed">80%</span>
-                        <div class="progress-bar" id="d1" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="progress-type"> &nbsp;&nbsp;&nbsp;HTML5 / CSS3</span>
-                        </div>
-                        
-                        
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" id="progressbar" style="height: 30px;background-color:rgb(235,235,235);">
-                        <span class="progress-completed" >60%</span>
-                        <div class="progress-bar progress-bar-2"  id="d2" data-percent="60%" role="progressbar" style="width: 60%;">
-                            <span class="progress-type" style=""> &nbsp;&nbsp;&nbsp;Javascript</span>
-                        </div>
-                        
-                        
-                      </div>
-                    </li>
+        <!-- Skils List -->
+        <ul class="skills-list">
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color:rgb(235,235,235);">
+              <span class="progress-completed">80%</span>
+              <div class="progress-bar" id="d1" data-percent="80%" role="progressbar" style="width: 80%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;HTML5 / CSS3</span>
+              </div>
 
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color:rgb(235,235,235);">
+              <span class="progress-completed">60%</span>
+              <div class="progress-bar progress-bar-2" id="d2" data-percent="60%" role="progressbar" style="width: 60%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;Javascript</span>
+              </div>
 
-                    <li>
-                        <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
-                          <span class="progress-completed">60%</span>
-                          <div class="progress-bar progress-bar-2" id="d3" data-percent="40%" role="progressbar" style="width: 40%;">
-                              <span class="progress-type"> &nbsp;&nbsp;&nbsp;PHP</span>
-                          </div>
-                          
-                          
-                        </div>
-                      </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <!-- <div class="progress">
+            </div>
+          </li>
+
+          <li>
+            <div class="progress" id="progressbar" style="height: 30px;background-color: rgb(235,235,235);">
+              <span class="progress-completed">60%</span>
+              <div class="progress-bar progress-bar-2" id="d3" data-percent="40%" role="progressbar" style="width: 40%;">
+                <span class="progress-type"> &nbsp;&nbsp;&nbsp;PHP</span>
+              </div>
+
+            </div>
+          </li>
+          <!-- /item list -->
+          <!-- item-list -->
+          <li>
+            <!-- <div class="progress">
                         <div class="progress-bar progress-bar-3" data-percent="40%" role="progressbar" style="width: 40%;">
                             <span class="sr-only">40% Complete</span>
                         </div>
                         <span class="progress-type">PHP</span>
                         <span class="progress-completed">40%</span>
                       </div> -->
-                    </li>
-                    <!-- /item list -->
-                  </ul>
-                <!-- /Skils List -->
-                 
-            </div>			
-        </div>    </div>
+          </li>
+          <!-- /item list -->
+        </ul>
 
-        </body>
+      </div>
+    </div>
 
-        <script src="script.js">
+  </div>
 
-        </script>
+  <div id="boss">
+
+    <div class="section-vcardbody section-home" id="section-home">
+
+      <!-- Content -->
+
+      <!-- Blog Posts -->
+      <div class="blog-single-post" id="blogPost">
+        <!-- post image -->
+        <div class="post-header-image">
+          <img src="https://dotrex.co/theme-preview/cards/img/blog3.jpg" style="width:460px;" alt="">
+        </div>
+        <!-- /post-image -->
+
+        <!-- post title -->
+        <h2 class="blog-single-title title-border" style="padding: 20px;margin-bottom: 4px;text-transform: uppercase;">&nbsp;This is your post title!</h2>
+        <!-- /post title -->
+        <hr style="width: 85%;border-top: 3px solid black;margin-bottom: 4px;">
+
+        <!-- post content -->
+        <div class="blog-single-content" style="padding: 40px;font-family: Montserrat;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales varius sagittis. Proin a arcu vitae turpis congue facilisis. Quisque a lectus pretium, sagittis augue in, fringilla risus. Quisque elementum, ante a maximus commodo, dui metus imperdiet mi, sit amet tempor lectus erat ac orci. Mauris suscipit rhoncus lobortis. Quisque tincidunt nisi libero. Fusce nec turpis quis enim finibus porta. Donec eget sapien ac leo tempor elementum a at ante. In volutpat placerat quam non cursus. Nunc rutrum nisl at diam maximus tempor. Fusce eget commodo lorem. In et fringilla tellus. Donec vitae laoreet lacus. Donec varius, velit at varius ornare, augue orci posuere enim, in dignissim quam dui nec turpis. Donec molestie sollicitudin elit eget porttitor.</p>
+          <p> Sed dignissim facilisis ex. Maecenas mattis velit orci, ut rhoncus tellus dapibus ut. Ut placerat tortor sed felis pellentesque pharetra. Etiam commodo elementum mollis. Donec aliquam sem id odio porttitor sodales id id arcu. Maecenas vulputate dictum nulla, a vestibulum purus varius id. Cras non mollis enim.</p>
+          <p>Donec cursus massa sed sapien laoreet, eget vulputate urna interdum. Proin quis neque sem. Curabitur accumsan mollis malesuada. Donec nec ultrices ante. Nam sed elit aliquet, convallis augue in, rhoncus ante. Integer vulputate lectus dui, et dictum magna commodo et. Curabitur scelerisque finibus tortor pellentesque iaculis. Ut varius aliquet suscipit. Praesent commodo quam tempor, volutpat felis ut, imperdiet nulla. Sed eu libero sed nisl semper sagittis. Nunc odio arcu, convallis a nulla nec, egestas auctor lectus. Morbi finibus justo commodo turpis laoreet commodo. Sed auctor vel orci eu tincidunt.</p>
+          <p>Vivamus non odio egestas, condimentum nunc nec, venenatis tellus. Morbi tempor sagittis scelerisque. Donec hendrerit dictum lobortis. Nulla eget lacus commodo, malesuada metus sed, faucibus odio. Ut convallis diam eu consequat vehicula. Nulla massa neque, consectetur quis nunc quis, fringilla viverra lorem. Cras auctor at risus pellentesque elementum. Pellentesque odio magna, fringilla non fermentum in, luctus dapibus mauris. Mauris commodo est eget sem maximus, vitae tempor purus facilisis. Cras accumsan diam at sem egestas, eget lobortis quam vestibulum. Sed rutrum interdum dolor, at commodo magna feugiat ac. Integer euismod dignissim feugiat. Aliquam erat volutpat. Vestibulum ac libero sit amet erat molestie pulvinar nec ut urna. Vestibulum dapibus pretium mauris ac porttitor. Aliquam sagittis velit et placerat</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="five">
+
+    <!-- SECTION: BLOG-->
+    <div class="section-vcardbody section-page" id="page-blog">
+      <div class="section-blog">
+
+        <!-- Section title -->
+        <h2 class="section-title" style="text-transform: uppercase;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blog</h2>
+        <!-- /Section title -->
+
+        <!-- BLOG POSTS -->
+        <div class="blog-posts">
+          <!-- blog-item -->
+          <hr>
+          <!-- blog item thumbnail -->
+          <div class="blog-item-thumb">
+            <a href="single.html" class="loadPost"><img src="https://dotrex.co/theme-preview/cards/img/blog1.jpg" alt=""></a>
+          </div>
+          <!-- /blog item thumbnail -->
+          <!-- Blog item - infos -->
+          <div class="blog-item-infos">
+            <!-- blog-item-title -->
+            <div class="blog-item-title-wrapper">
+              <h2 class="blog-item-title title-border"><a href="single.html" class="loadPost">How to succeed in meetings</a></h2>
+            </div>
+            <!-- /blog-item-title -->
+            <!-- blog item - description -->
+            <div class="blog-item-description">
+              <p><a href="single.html" class="loadPost">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sodales varius sagittis. Proin a arcu vitae turpis congue facilisis. Quisque a lectus pretium, sagittis augue in, fringilla risus....</a></p>
+            </div>
+            <!-- /blog-item-description -->
+            <!-- blog item - link -->
+            <div class="blog-item-link">
+              <button onclick="myfun5()" class=" link-page btn" style="text-transform: uppercase; width: 130px; line-height: 20px;margin-bottom: 5px; color: white;text-align: left;"> See More </button>
+            </div>
+            <!-- /blog item - link -->
+          </div>
+          <!-- /blog item - infos -->
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+
+<script src="script.js"></script>
+
 </html>
-
